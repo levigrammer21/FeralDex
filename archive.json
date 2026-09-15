@@ -1,6 +1,6 @@
 {
   "book": 1,
-  "maxChapter": 43,
+  "maxChapter": 45,
   "ferals": [
     {
       "id": "cinderkit",
@@ -556,5 +556,79 @@
       "chapter": 5
     }
   ],
-  "version": "0.3"
+  "version": "0.3",
+  "sanctuary": {
+    "rules": [
+      "Protected digital-biological environment housed within the Personal Interface Device.",
+      "Bonded Ferals can be transferred into Sanctuary storage.",
+      "Sanctuary storage prevents additional environmental harm.",
+      "Minimal natural recovery occurs during Sanctuary storage."
+    ],
+    "trainers": [
+      {
+        "id": "reid",
+        "name": "Reid",
+        "theme": "Ember / Gravity",
+        "unlockChapter": 1,
+        "habitat": "Mixed woodland sanctuary with stream access, warm resting stone, and reinforced open ground.",
+        "summary": "A shared habitat built around Cinderkit’s preference for warm, sheltered rest and Roxy’s need for space, visibility, and room to guard her pack.",
+        "residents": [
+          {
+            "feralId": "cinderkit",
+            "unlockChapter": 1,
+            "displayName": "Cinderkit",
+            "bond": "Natural bond",
+            "condition": "Chapter-synced",
+            "zone": "Warmstone Grove",
+            "behavior": "Frequently rests beneath the trees or near warm stone. Stubborn, curious, and strongly food-motivated.",
+            "status": "BONDED"
+          },
+          {
+            "feralId": "gravahound",
+            "unlockChapter": 8,
+            "displayName": "Roxy",
+            "species": "Titanblood Gravahound",
+            "bond": "Voluntary bond",
+            "condition": "Chapter-synced",
+            "zone": "Guardian Meadow",
+            "behavior": "Positions herself near Cinderkit and Reid, treating the Sanctuary as pack territory.",
+            "status": "BONDED"
+          }
+        ]
+      },
+      {
+        "id": "evan",
+        "name": "Evan",
+        "theme": "Earth / Water",
+        "unlockChapter": 3,
+        "habitat": "Stone-lined meadow feeding into a deep-water habitat, giving heavy defenders stable footing and aquatic Ferals enough depth to coil and swim.",
+        "summary": "A defensive sanctuary shaped around Evan’s bonded partners: solid ground for his earth guardian and protected deep water for Abysscoil.",
+        "residents": [
+          {
+            "feralId": "stonebuck",
+            "evolvesTo": "bastionhorn",
+            "evolveChapter": 9,
+            "unlockChapter": 3,
+            "displayName": "Stonebuck",
+            "evolvedName": "Bastionhorn",
+            "bond": "Natural Alignment",
+            "condition": "Chapter-synced",
+            "zone": "Rampart Field",
+            "behavior": "Usually found near the stream or testing his armor against whatever part of the habitat looks hardest to move.",
+            "status": "BONDED"
+          },
+          {
+            "feralId": "abysscoil",
+            "unlockChapter": 19,
+            "displayName": "Abysscoil",
+            "bond": "Freedom",
+            "condition": "Chapter-synced",
+            "zone": "Deepwater Basin",
+            "behavior": "Prefers deep water and open movement. Bond condition is explicitly recorded as Freedom.",
+            "status": "BONDED"
+          }
+        ]
+      }
+    ]
+  }
 }

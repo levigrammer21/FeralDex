@@ -16,3 +16,38 @@ function openFeral(id){let x=db.ferals.find(f=>f.id===id); let abs=(x.abilities|
 $('#chapter').oninput=e=>{chapter=+e.target.value;localStorage.setItem('faChapter',chapter);render()}; $('#search').oninput=renderDex; $('#close').onclick=()=>$('#modal').classList.remove('open'); $('#modal').onclick=e=>{if(e.target.id==='modal')e.currentTarget.classList.remove('open')};
 $('#mode').onclick=()=>{if(!archive&&!confirm('ARCHIVE MODE may reveal System data beyond your selected chapter. Continue?'))return; archive=!archive; $('#mode').textContent=archive?'ARCHIVE MODE':'READER MODE';render()};
 $$('#nav button').forEach(b=>b.onclick=()=>{$$('.view').forEach(v=>v.classList.remove('active')); $('#'+b.dataset.view).classList.add('active'); $$('#nav button').forEach(x=>x.classList.remove('on')); b.classList.add('on'); window.scrollTo(0,0)});
+
+// Sanctuary module
+let sanctuaryTrainer=localStorage.getItem('faSanctuaryTrainer')||'reid';
+function sanctuaryFeralFor(res){
+  let id=res.feralId;
+  if(res.evolvesTo && (archive||chapter>=res.evolveChapter)) id=res.evolvesTo;
+  return db.ferals.find(f=>f.id===id);
+}
+function renderSanctuary(){
+  if(!db?.sanctuary)return;
+  const trainer=db.sanctuary.trainers.find(t=>t.id===sanctuaryTrainer)||db.sanctuary.trainers[0];
+  const unlocked=trainer.residents.filter(r=>archive||r.unlockChapter<=chapter);
+  $('#sanctuaryTrainer').textContent=`${trainer.name.toUpperCase()} // SANCTUARY`;
+  $('#sanctuaryResidentCount').textContent=`${unlocked.length} RESIDENT${unlocked.length===1?'':'S'}`;
+  const abyssOpen=trainer.id==='evan'&&(archive||chapter>=19), roxyOpen=trainer.id==='reid'&&(archive||chapter>=8);
+  let summary=trainer.summary, habitat=trainer.habitat;
+  if(trainer.id==='reid'&&!roxyOpen){summary='A protected woodland habitat currently synchronized to Cinderkit. Warm resting areas and stream access provide a safe place to recover away from environmental danger.';habitat='Woodland sanctuary with stream access and warm resting stone.'}
+  if(trainer.id==='evan'&&!abyssOpen){summary=unlocked.length?'A sturdy sanctuary currently synchronized to Evan’s earth-aligned bonded partner, with stable ground and stream access.':'No bonded residents are synchronized to this Sanctuary at the current chapter.';habitat='Stone-lined meadow with stream access.'}
+  $('#sanctuarySummary').innerHTML=`<small>HABITAT PROFILE // ${trainer.theme.toUpperCase()}</small><h2>${trainer.name}'s Sanctuary</h2><p>${summary}</p><div class="habitatMeta"><span class="tag">PROTECTED HABITAT</span><span class="tag">STREAM ACCESS</span><span class="tag">${unlocked.length} RESIDENT${unlocked.length===1?'':'S'} SYNCED</span></div><p><b>HABITAT CONFIGURATION</b><br>${habitat}</p>`;
+  const positions=trainer.id==='reid'?[[28,64],[69,66]]:[[28,66],[70,67]];
+  $('#sanctuaryResidents').innerHTML=trainer.residents.map((r,i)=>{
+    let isOpen=archive||r.unlockChapter<=chapter, f=sanctuaryFeralFor(r), name=isOpen?(r.evolvesTo&&(archive||chapter>=r.evolveChapter)?r.evolvedName:r.displayName):'SEALED';
+    return `<div class="residentMarker ${isOpen?'':'lockedResident'}" ${isOpen&&f?`data-sanctuary-feral="${f.id}"`:''} style="left:${positions[i][0]}%;top:${positions[i][1]}%"><div class="residentGlyph">${isOpen?name.slice(0,2).toUpperCase():'?'}</div><b>${name.toUpperCase()}</b><small>${isOpen?r.zone:'CH '+r.unlockChapter}</small></div>`
+  }).join('');
+  $('#sanctuaryCards').innerHTML=trainer.residents.map(r=>{
+    let isOpen=archive||r.unlockChapter<=chapter, f=sanctuaryFeralFor(r), evolved=r.evolvesTo&&(archive||chapter>=r.evolveChapter), name=evolved?r.evolvedName:r.displayName, species=evolved?'Bond-evolved Stonebuck':(r.species||f?.name||'Feral');
+    if(!isOpen)return `<article class="panel sanctuaryResident chapterSealed"><div class="residentTop"><div><small>SANCTUARY SLOT // CH ${r.unlockChapter}</small><div class="residentName">SEALED RESIDENT</div><div class="residentSpecies">UNDISCOVERED BONDED FERAL</div></div><span class="residentStatus">LOCKED</span></div><p>Advance Reader Mode to Chapter ${r.unlockChapter} to synchronize this resident.</p></article>`;
+    return `<article class="panel sanctuaryResident" data-sanctuary-feral="${f?.id||''}"><div class="residentTop"><div><small>${r.zone.toUpperCase()}</small><div class="residentName">${name}</div><div class="residentSpecies">${species}</div></div><span class="residentStatus">${r.status}</span></div><div class="residentData"><div><small>BOND</small><b>${r.bond}</b></div><div><small>CONDITION</small><b>${r.condition}</b></div></div><p>${r.behavior}</p>${r.evolvesTo?`<div class="meta">${(archive||chapter>=r.evolveChapter)?'EVOLUTION SYNCHRONIZED // CH '+r.evolveChapter:'EVOLUTION DATA SEALED'}</div>`:''}</article>`
+  }).join('');
+  $('#sanctuaryRules').innerHTML=db.sanctuary.rules.map((r,i)=>`<div class="rule"><i>0${i+1}</i><span>${r}</span></div>`).join('');
+  $$('.trainerTab').forEach(b=>b.classList.toggle('on',b.dataset.trainer===trainer.id));
+  $$('[data-sanctuary-feral]').forEach(e=>e.onclick=()=>openFeral(e.dataset.sanctuaryFeral));
+}
+$$('.trainerTab').forEach(b=>b.onclick=()=>{sanctuaryTrainer=b.dataset.trainer;localStorage.setItem('faSanctuaryTrainer',sanctuaryTrainer);renderSanctuary()});
+const _render=render; render=function(){_render();renderSanctuary()};

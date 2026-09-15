@@ -1,15 +1,28 @@
-# Feral Ascension HUD v0.3
+# Feral Ascension HUD v0.4 — Sanctuary
 
-GitHub Pages-ready, mobile-first HUD companion for *Feral Ascension*.
+Mobile-first GitHub Pages HUD for the Feral Ascension series.
 
-## Root-only rule
-Every project file in this build belongs directly in the repository root. Do not create data/code subfolders. Image assets may be nested later if desired.
+## Root-only repository layout
+All project files belong directly in the repository root:
 
-## v0.3
-- Expanded Feral Dex to 25 named Feral species/forms currently identified in the unfinished Book 1 manuscript.
-- Added roster slots for later-book-current entries including Bastionhorn, Roadshell, Mendkin, Abysscoil, Voltrake, Shardwing, Stormlynx, and Prismantis.
-- Added expanded Feral record pages with type, class, level, temperament, known abilities, flavor text, estimated height/weight, role, habitat, threat, and first archive chapter.
-- Height, weight, habitat, role, and threat values marked with `*` are intentionally DEX flavor estimates, not claims that those exact numbers appeared in the manuscript.
-- Reader Mode continues to seal future Feral identities until their first archive chapter.
+- `index.html`
+- `style.css`
+- `app.js`
+- `archive.json`
+- `manifest.json`
+- `README.md`
 
-Upload all files directly to the root of the GitHub repository and enable GitHub Pages.
+Do not place project/data files in subfolders.
+
+## v0.4 additions
+- Interactive Sanctuary module
+- Reid / Evan trainer sanctuary switching
+- Chapter-synced bonded residents
+- Stonebuck → Bastionhorn evolution synchronization at Chapter 9
+- Roxy / Titanblood Gravahound resident profile
+- Abysscoil resident unlock and Freedom bond data
+- Habitat scene, resident markers, bonded-resident cards, Sanctuary protocol
+- Story progress range extended through current Chapter 45
+
+## Deploy
+Upload the six files to the repository root, enable GitHub Pages from the root branch, and open the Pages URL on mobile.
