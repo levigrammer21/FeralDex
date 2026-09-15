@@ -1,21 +1,15 @@
-# Feral Ascension // Personal Interface
+# Feral Ascension HUD v0.3
 
-Mobile-first, spoiler-aware companion HUD for the Feral Ascension book series.
+GitHub Pages-ready, mobile-first HUD companion for *Feral Ascension*.
 
-## GitHub Pages
-1. Upload these files to the repository root (keep `data/` as-is).
-2. In GitHub: Settings → Pages → Deploy from a branch → `main` / root.
-3. Open the Pages URL on a phone and add it to the home screen for an app-like experience.
+## Root-only rule
+Every project file in this build belongs directly in the repository root. Do not create data/code subfolders. Image assets may be nested later if desired.
 
-## Current prototype
-- Reader Mode chapter synchronization (Book 1, Chapters 1–43)
-- Archive Mode with spoiler warning
-- Feral Dex populated from explicit System scans in the current manuscript
-- Inventory archive
-- System Log
-- Fog-of-war style map shell
-- Navigation matching the manuscript's Personal Interface modules
-- Progress persists locally on the device
+## v0.3
+- Expanded Feral Dex to 25 named Feral species/forms currently identified in the unfinished Book 1 manuscript.
+- Added roster slots for later-book-current entries including Bastionhorn, Roadshell, Mendkin, Abysscoil, Voltrake, Shardwing, Stormlynx, and Prismantis.
+- Added expanded Feral record pages with type, class, level, temperament, known abilities, flavor text, estimated height/weight, role, habitat, threat, and first archive chapter.
+- Height, weight, habitat, role, and threat values marked with `*` are intentionally DEX flavor estimates, not claims that those exact numbers appeared in the manuscript.
+- Reader Mode continues to seal future Feral identities until their first archive chapter.
 
-## Updating content
-Edit `data/archive.json`. Every record has a `chapter` field. A record is automatically hidden in Reader Mode until that chapter is selected.
+Upload all files directly to the root of the GitHub repository and enable GitHub Pages.
