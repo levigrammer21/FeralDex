@@ -1,0 +1,262 @@
+{
+  "book": 1,
+  "maxChapter": 43,
+  "ferals": [
+    {
+      "id": "cinderkit",
+      "name": "Cinderkit",
+      "type": "Beast \u2022 Ember",
+      "feralClass": "Common",
+      "level": null,
+      "temperament": "Cautious",
+      "notes": "System scan recorded.",
+      "chapter": 1
+    },
+    {
+      "id": "thornmaw",
+      "name": "Thornmaw",
+      "type": "Reptile \u2022 Plant",
+      "feralClass": "Common",
+      "level": null,
+      "temperament": "Aggressive",
+      "notes": "System scan recorded.",
+      "chapter": 1
+    },
+    {
+      "id": "gravemaw-ursal",
+      "name": "Gravemaw Ursal",
+      "type": "Beast \u2022 Earth \u2022 \u2022 unknown",
+      "feralClass": "Unknown",
+      "level": "Unknown",
+      "temperament": null,
+      "notes": "System scan recorded.",
+      "chapter": 2
+    },
+    {
+      "id": "blacktooth",
+      "name": "Blacktooth",
+      "type": "Beast \u2022 Shadow",
+      "feralClass": "Bronze",
+      "level": "Nine",
+      "temperament": "Predatory",
+      "notes": "Shadow Prowl. Rending Pounce. Black Fang. Challenge enhancement detected",
+      "chapter": 3
+    },
+    {
+      "id": "stonebuck",
+      "name": "Stonebuck",
+      "type": "Beast \u2022 Earth",
+      "feralClass": "Common",
+      "level": "Four",
+      "temperament": "Stubborn",
+      "notes": "Brace. Ram. Stonehide. Current disposition: Extremely angry",
+      "chapter": 3
+    },
+    {
+      "id": "razorwing",
+      "name": "Razorwing",
+      "type": "Avian \u2022 Metal",
+      "feralClass": "Common",
+      "level": "Three",
+      "temperament": null,
+      "notes": "System scan recorded.",
+      "chapter": 3
+    },
+    {
+      "id": "gloomhopper",
+      "name": "Gloomhopper",
+      "type": "Amphibian \u2022 Fungal",
+      "feralClass": "Common",
+      "level": "Five",
+      "temperament": null,
+      "notes": "Spore Burst",
+      "chapter": 3
+    },
+    {
+      "id": "bogjaw",
+      "name": "Bogjaw",
+      "type": "Water \u2022 Beast",
+      "feralClass": "Common",
+      "level": "Five",
+      "temperament": "Territorial",
+      "notes": "Drench, Crushing Paw, Mud Rush",
+      "chapter": 5
+    },
+    {
+      "id": "bramblehog",
+      "name": "Bramblehog",
+      "type": "Beast \u2022 Nature",
+      "feralClass": "Common",
+      "level": null,
+      "temperament": "Suspicious",
+      "notes": "Bristle Rush and Root Dig",
+      "chapter": 6
+    },
+    {
+      "id": "glimmerwing",
+      "name": "Glimmerwing",
+      "type": "Avian \u2022 Light",
+      "feralClass": "Common",
+      "level": null,
+      "temperament": null,
+      "notes": "Flashfeather and Keen Sight",
+      "chapter": 6
+    },
+    {
+      "id": "gravahound",
+      "name": "Gravahound",
+      "type": "Beast \u2022 Gravity",
+      "feralClass": "Bronze",
+      "level": null,
+      "temperament": null,
+      "notes": "System scan recorded.",
+      "chapter": 7
+    },
+    {
+      "id": "scytheclaw",
+      "name": "Scytheclaw",
+      "type": "Insectoid \u2022 Bone",
+      "feralClass": "Bronze",
+      "level": null,
+      "temperament": "Relentless",
+      "notes": "Cleaving Step, Bone Shear, Scent Lock. Current threat assessment: Fatal",
+      "chapter": 7
+    },
+    {
+      "id": "shatterwing",
+      "name": "Shatterwing",
+      "type": "Avian \u2022 Earth",
+      "feralClass": "Common",
+      "level": null,
+      "temperament": null,
+      "notes": "System scan recorded.",
+      "chapter": 9
+    },
+    {
+      "id": "shatterwing-rook",
+      "name": "Shatterwing Rook",
+      "type": "Avian \u2022 Earth",
+      "feralClass": "Bronze",
+      "level": null,
+      "temperament": null,
+      "notes": "Boulder Drop, Shardstorm, and Crushing Dive",
+      "chapter": 9
+    },
+    {
+      "id": "meadow-strider",
+      "name": "Meadow Strider",
+      "type": "Avian \u2022 Nature \u2022 \u2022 Earth",
+      "feralClass": "Bronze",
+      "level": null,
+      "temperament": null,
+      "notes": "System scan recorded.",
+      "chapter": 10
+    },
+    {
+      "id": "cinder-drake",
+      "name": "Cinder Drake",
+      "type": "Reptile \u2022 Ember \u2022 \u2022 Wind",
+      "feralClass": "Bronze",
+      "level": null,
+      "temperament": null,
+      "notes": "System scan recorded.",
+      "chapter": 10
+    },
+    {
+      "id": "tinkerlet",
+      "name": "Tinkerlet",
+      "type": "Beast \u2022 Metal",
+      "feralClass": "Common",
+      "level": null,
+      "temperament": "Mischievous",
+      "notes": "System scan recorded.",
+      "chapter": 13
+    }
+  ],
+  "items": [
+    {
+      "id": "beginner-ration",
+      "name": "Beginner Ration",
+      "category": "System Item",
+      "chapter": 1,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "minor-healing-salve",
+      "name": "Minor Healing Salve",
+      "category": "System Item",
+      "chapter": 1,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "feral-treat",
+      "name": "Feral Treat",
+      "category": "System Item",
+      "chapter": 1,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "feral-restoration-tonic",
+      "name": "Feral Restoration Tonic",
+      "category": "System Item",
+      "chapter": 4,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "guardian-s-band",
+      "name": "Guardian\u2019s Band",
+      "category": "System Item",
+      "chapter": 4,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "hunter-s-cord",
+      "name": "Hunter\u2019s Cord",
+      "category": "System Item",
+      "chapter": 6,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "blacktooth-scale-fur",
+      "name": "Blacktooth Scale-Fur",
+      "category": "System Item",
+      "chapter": 3,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "shadow-fang-fragment",
+      "name": "Shadow Fang Fragment",
+      "category": "System Item",
+      "chapter": 4,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "beginner-supply-voucher",
+      "name": "Beginner Supply Voucher",
+      "category": "System Item",
+      "chapter": 6,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    },
+    {
+      "id": "regional-supply-token",
+      "name": "Regional Supply Token",
+      "category": "System Item",
+      "chapter": 22,
+      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Beginner Supply Cache",
+      "chapter": 1
+    },
+    {
+      "name": "Feral Sanctuary",
+      "chapter": 1
+    },
+    {
+      "name": "Greenhaven",
+      "chapter": 5
+    }
+  ]
+}
