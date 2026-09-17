@@ -21,7 +21,8 @@
         "Ember Spit"
       ],
       "image": "feral-cinderkit.webp",
-      "imageAlt": "Original Feral Dex artwork for Cinderkit"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "thornmaw",
@@ -40,7 +41,8 @@
       "role": "Ambush bruiser",
       "abilities": [],
       "image": "feral-thornmaw.webp",
-      "imageAlt": "Original Feral Dex artwork for Thornmaw"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "gravemaw-ursal",
@@ -59,7 +61,8 @@
       "role": "Heavy assault",
       "abilities": [],
       "image": "feral-gravemaw-ursal.webp",
-      "imageAlt": "Original Feral Dex artwork for Gravemaw Ursal"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "blacktooth",
@@ -71,7 +74,7 @@
       "notes": "Shadow Prowl. Rending Pounce. Black Fang. Challenge enhancement detected",
       "chapter": 3,
       "flavor": "A shadow-stalking predator whose black fangs are often the last thing prey notices. Built to close distance before a target can react.",
-      "height": "3 ft 1 in",
+      "height": "Shoulders nearly to Evan's chest",
       "weight": "96 lb",
       "threat": "Extreme",
       "habitat": "Forest / low light",
@@ -82,7 +85,8 @@
         "Black Fang"
       ],
       "image": "feral-blacktooth.webp",
-      "imageAlt": "Original Feral Dex artwork for Blacktooth"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "MANUSCRIPT DESCRIPTION"
     },
     {
       "id": "stonebuck",
@@ -105,7 +109,8 @@
         "Stonehide"
       ],
       "image": "feral-stonebuck.webp",
-      "imageAlt": "Original Feral Dex artwork for Stonebuck"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "razorwing",
@@ -117,14 +122,15 @@
       "notes": "System scan recorded.",
       "chapter": 3,
       "flavor": "A metallic-winged flier with cutting edges built into its silhouette. Fast passes make it dangerous in open air.",
-      "height": "2 ft 2 in",
+      "height": "Nearly 4 ft tall",
       "weight": "18 lb",
       "threat": "Moderate",
       "habitat": "Cliffs / open sky",
       "role": "Aerial striker",
       "abilities": [],
       "image": "feral-razorwing.webp",
-      "imageAlt": "Original Feral Dex artwork for Razorwing"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "MANUSCRIPT DESCRIPTION"
     },
     {
       "id": "gloomhopper",
@@ -145,7 +151,8 @@
         "Spore Burst"
       ],
       "image": "feral-gloomhopper.webp",
-      "imageAlt": "Original Feral Dex artwork for Gloomhopper"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "bogjaw",
@@ -168,7 +175,8 @@
         "Mud Rush"
       ],
       "image": "feral-bogjaw.webp",
-      "imageAlt": "Original Feral Dex artwork for Bogjaw"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "bramblehog",
@@ -190,7 +198,8 @@
         "Root Dig"
       ],
       "image": "feral-bramblehog.webp",
-      "imageAlt": "Original Feral Dex artwork for Bramblehog"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "glimmerwing",
@@ -212,7 +221,8 @@
         "Keen Sight"
       ],
       "image": "feral-glimmerwing.webp",
-      "imageAlt": "Original Feral Dex artwork for Glimmerwing"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "gravahound",
@@ -224,7 +234,7 @@
       "notes": "System scan recorded.",
       "chapter": 7,
       "flavor": "A powerful hound-shaped Feral that bends gravity around movement and impact. Titanblood specimens are dramatically heavier and stronger than their frame suggests.",
-      "height": "4 ft 8 in",
+      "height": "Larger than Stonebuck; Titanblood variant",
       "weight": "420 lb",
       "threat": "Extreme",
       "habitat": "Open wilds",
@@ -235,7 +245,8 @@
         "Guardian’s Claim"
       ],
       "image": "feral-gravahound.webp",
-      "imageAlt": "Original Feral Dex artwork for Gravahound"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "MANUSCRIPT DESCRIPTION"
     },
     {
       "id": "scytheclaw",
@@ -258,7 +269,8 @@
         "Scent Lock"
       ],
       "image": "feral-scytheclaw.webp",
-      "imageAlt": "Original Feral Dex artwork for Scytheclaw"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "shatterwing",
@@ -277,7 +289,8 @@
       "role": "Flock striker",
       "abilities": [],
       "image": "feral-shatterwing.webp",
-      "imageAlt": "Original Feral Dex artwork for Shatterwing"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "shatterwing-rook",
@@ -300,7 +313,8 @@
         "Crushing Dive"
       ],
       "image": "feral-shatterwing-rook.webp",
-      "imageAlt": "Original Feral Dex artwork for Shatterwing Rook"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "bastionhorn",
@@ -324,7 +338,8 @@
         "Living Rampart"
       ],
       "image": "feral-bastionhorn.webp",
-      "imageAlt": "Original Feral Dex artwork for Bastionhorn"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "meadow-strider",
@@ -343,7 +358,8 @@
       "role": "Mobile habitat",
       "abilities": [],
       "image": "feral-meadow-strider.webp",
-      "imageAlt": "Original Feral Dex artwork for Meadow Strider"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "cinder-drake",
@@ -362,7 +378,8 @@
       "role": "Aerial fire striker",
       "abilities": [],
       "image": "feral-cinder-drake.webp",
-      "imageAlt": "Original Feral Dex artwork for Cinder Drake"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "roadshell",
@@ -381,7 +398,8 @@
       "role": "Public transit",
       "abilities": [],
       "image": "feral-roadshell.webp",
-      "imageAlt": "Original Feral Dex artwork for Roadshell"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "mendkin",
@@ -400,7 +418,8 @@
       "role": "Healer",
       "abilities": [],
       "image": "feral-mendkin.webp",
-      "imageAlt": "Original Feral Dex artwork for Mendkin"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "tinkerlet",
@@ -419,7 +438,8 @@
       "role": "Scavenger",
       "abilities": [],
       "image": "feral-tinkerlet.webp",
-      "imageAlt": "Original Feral Dex artwork for Tinkerlet"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "abysscoil",
@@ -443,7 +463,8 @@
         "Depth Crush"
       ],
       "image": "feral-abysscoil.webp",
-      "imageAlt": "Original Feral Dex artwork for Abysscoil"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "shardwing",
@@ -462,7 +483,8 @@
       "role": "Precision striker",
       "abilities": [],
       "image": "feral-shardwing.webp",
-      "imageAlt": "Original Feral Dex artwork for Shardwing"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "voltrake",
@@ -481,7 +503,8 @@
       "role": "Lightning skirmisher",
       "abilities": [],
       "image": "feral-voltrake.webp",
-      "imageAlt": "Original Feral Dex artwork for Voltrake"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "stormlynx",
@@ -500,7 +523,8 @@
       "role": "Anti-water striker",
       "abilities": [],
       "image": "feral-stormlynx.webp",
-      "imageAlt": "Original Feral Dex artwork for Stormlynx"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     },
     {
       "id": "prismantis",
@@ -519,7 +543,8 @@
       "role": "Reflective defender",
       "abilities": [],
       "image": "feral-prismantis.webp",
-      "imageAlt": "Original Feral Dex artwork for Prismantis"
+      "imageStatus": "CURRENT ART",
+      "measurementSource": "DEX ESTIMATE"
     }
   ],
   "items": [
@@ -653,7 +678,7 @@
       "description": "Six-minute team ground trial arena with covered passages, water runs, scoring rings, and medical-stop rules."
     }
   ],
-  "version": "0.6-book1-complete",
+  "version": "1.0.0",
   "sanctuary": {
     "rules": [
       "Protected digital-biological environment housed within the Personal Interface Device.",
@@ -689,7 +714,10 @@
             "condition": "Chapter-synced",
             "zone": "Guardian Meadow",
             "behavior": "Positions herself near Cinderkit and Reid, treating the Sanctuary as pack territory.",
-            "status": "BONDED"
+            "status": "BONDED",
+            "image": "feral-roxy.webp",
+            "awakenChapter": 55,
+            "awakenedLabel": "Titanblood // Awakened // Master"
           }
         ]
       },
@@ -1392,9 +1420,9 @@
     }
   ],
   "dexMeta": {
-    "observedRecords": 25,
-    "worldTotal": "UNKNOWN",
-    "scope": "Book 1 observed records only",
-    "note": "The Personal Interface has only cataloged Ferals encountered or identified in the current archive. This is not a complete species list for the world."
+    "observedSpecies": 25,
+    "worldSpeciesTotal": "UNKNOWN",
+    "scope": "Book 1 observed species/forms only",
+    "note": "The tournament world contains far more Feral species than the Book 1 archive has encountered. The Dex is an observed archive, not a complete species catalog."
   }
 }

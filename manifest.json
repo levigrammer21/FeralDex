@@ -1,8 +1,9 @@
 {
-  "name": "Feral Ascension HUD",
-  "short_name": "FA HUD",
+  "name": "Feral Ascension Personal Interface",
+  "short_name": "Feral Ascension",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#071512",
-  "theme_color": "#071512"
+  "background_color": "#040a09",
+  "theme_color": "#06100f",
+  "description": "Book 1 companion Personal Interface HUD"
 }

@@ -1,26 +1,15 @@
-# Feral Ascension Personal Interface — Book 1 Complete
+# Feral Ascension Personal Interface — v1.0.0
 
-GitHub Pages-ready, mobile-first HUD companion for **Feral Assention**. Canon archive synchronized through **Book 1, Chapter 60** from the supplied 550-page manuscript.
+Polished Book 1 companion HUD for Chapters 1–60. Reader Mode gates records by chapter; Archive Mode reveals the complete current Book 1 archive.
 
-## Root-only repository
-Upload these files directly to repository root:
-- `index.html`
-- `style.css`
-- `app.js`
-- `archive.json`
-- `manifest.json`
-- `README.md`
+## Repository layout
+All app and image files are intentionally stored at repository root level. No subfolders are required.
 
-No project subfolders are required. Images remain intentionally unimplemented.
+## Current Feral art
+The Dex includes individual artwork assets for every currently archived Book 1 species/form, plus Roxy's Sanctuary portrait. The Dex is explicitly an **observed archive**, not a complete catalog of every Feral species in the world.
 
-## Chapter Sync
-Reader Mode gates records by first safe chapter. Archive Mode reveals the complete Book 1 database. Progress is stored locally in the browser.
+## GitHub Pages
+Publish from the repository root. `index.html` is the entry file. `.nojekyll` keeps the site as a direct static HTML/CSS/JS build.
 
-## Canon vs flavor stats
-System/book facts are archived as canon. Height, weight, habitat, role, and threat fields marked with `*` in the Dex are companion-app flavor estimates unless the manuscript explicitly supplies them.
-
-
-## Feral Dex artwork files
-The Dex now loads one root-level WebP image per observed Feral. Keep the image files beside `index.html`; do not create an image folder. Filenames are stored in each Feral record's `image` field in `archive.json` (for example `feral-cinderkit.webp`). If an image has not been added yet, the HUD automatically shows a System-style fallback instead of a broken image icon.
-
-The Book 1 Dex count is explicitly **observed records**, not the total number of Feral species in the world. The world total remains unknown.
+## Canon/data note
+Manuscript-provided System data is kept distinct from flavor estimates. Physical values not explicitly supplied by the manuscript remain labeled as DEX estimates.
