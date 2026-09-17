@@ -1,15 +1,15 @@
 {
   "book": 1,
-  "maxChapter": 45,
+  "maxChapter": 60,
   "ferals": [
     {
       "id": "cinderkit",
       "name": "Cinderkit",
-      "type": "Beast • Ember",
+      "type": "Beast \u2022 Ember",
       "feralClass": "Common",
       "level": null,
       "temperament": "Cautious",
-      "notes": "System scan recorded.",
+      "notes": "Known traits: Curious and Territorial. Warning: Teeth. Ember Spit produces a short burst of concentrated flame.",
       "chapter": 1,
       "flavor": "A foxlike ember Feral built for quick movement and sudden heat. Small size hides a stubborn survival streak.",
       "height": "1 ft 7 in",
@@ -17,12 +17,14 @@
       "threat": "Low",
       "habitat": "Woodland / grassland",
       "role": "Quick-footed skirmisher",
-      "abilities": []
+      "abilities": [
+        "Ember Spit"
+      ]
     },
     {
       "id": "thornmaw",
       "name": "Thornmaw",
-      "type": "Reptile • Plant",
+      "type": "Reptile \u2022 Plant",
       "feralClass": "Common",
       "level": null,
       "temperament": "Aggressive",
@@ -39,16 +41,16 @@
     {
       "id": "gravemaw-ursal",
       "name": "Gravemaw Ursal",
-      "type": "Beast • Earth",
+      "type": "Beast \u2022 Earth \u2022 Unknown",
       "feralClass": "Unknown",
       "level": "Unknown",
       "temperament": null,
       "notes": "System scan recorded.",
       "chapter": 2,
-      "flavor": "A massive ursine Feral associated with crushing earthbound force. Early archive data remains incomplete.",
+      "flavor": "A gigantic ursine Feral protected by black stone plates, with massive tusks and enough power to make a Thornmaw look like prey.",
       "height": "8 ft 2 in",
       "weight": "1,180 lb",
-      "threat": "Extreme",
+      "threat": "Fatal",
       "habitat": "Rocky wilds",
       "role": "Heavy assault",
       "abilities": []
@@ -56,7 +58,7 @@
     {
       "id": "blacktooth",
       "name": "Blacktooth",
-      "type": "Beast • Shadow",
+      "type": "Beast \u2022 Shadow",
       "feralClass": "Bronze",
       "level": "Nine",
       "temperament": "Predatory",
@@ -77,7 +79,7 @@
     {
       "id": "stonebuck",
       "name": "Stonebuck",
-      "type": "Beast • Earth",
+      "type": "Beast \u2022 Earth",
       "feralClass": "Common",
       "level": "Four",
       "temperament": "Stubborn",
@@ -98,7 +100,7 @@
     {
       "id": "razorwing",
       "name": "Razorwing",
-      "type": "Avian • Metal",
+      "type": "Avian \u2022 Metal",
       "feralClass": "Common",
       "level": "Three",
       "temperament": null,
@@ -115,7 +117,7 @@
     {
       "id": "gloomhopper",
       "name": "Gloomhopper",
-      "type": "Amphibian • Fungal",
+      "type": "Amphibian \u2022 Fungal",
       "feralClass": "Common",
       "level": "Five",
       "temperament": null,
@@ -134,7 +136,7 @@
     {
       "id": "bogjaw",
       "name": "Bogjaw",
-      "type": "Water • Beast",
+      "type": "Water \u2022 Beast",
       "feralClass": "Common",
       "level": "Five",
       "temperament": "Territorial",
@@ -155,7 +157,7 @@
     {
       "id": "bramblehog",
       "name": "Bramblehog",
-      "type": "Beast • Nature",
+      "type": "Beast \u2022 Nature",
       "feralClass": "Common",
       "level": null,
       "temperament": "Suspicious",
@@ -175,7 +177,7 @@
     {
       "id": "glimmerwing",
       "name": "Glimmerwing",
-      "type": "Avian • Light",
+      "type": "Avian \u2022 Light",
       "feralClass": "Common",
       "level": null,
       "temperament": null,
@@ -195,7 +197,7 @@
     {
       "id": "gravahound",
       "name": "Gravahound",
-      "type": "Beast • Gravity",
+      "type": "Beast \u2022 Gravity",
       "feralClass": "Bronze",
       "level": "Six",
       "temperament": null,
@@ -210,13 +212,13 @@
       "abilities": [
         "Gravity Rush",
         "Crushing Lock",
-        "Guardian’s Claim"
+        "Guardian\u2019s Claim"
       ]
     },
     {
       "id": "scytheclaw",
       "name": "Scytheclaw",
-      "type": "Insectoid • Bone",
+      "type": "Insectoid \u2022 Bone",
       "feralClass": "Bronze",
       "level": "Twelve",
       "temperament": "Relentless",
@@ -237,9 +239,9 @@
     {
       "id": "shatterwing",
       "name": "Shatterwing",
-      "type": "Avian • Earth",
+      "type": "Avian \u2022 Earth",
       "feralClass": "Common",
-      "level": "4–6",
+      "level": "4\u20136",
       "temperament": null,
       "notes": "System scan recorded.",
       "chapter": 9,
@@ -254,7 +256,7 @@
     {
       "id": "shatterwing-rook",
       "name": "Shatterwing Rook",
-      "type": "Avian • Earth",
+      "type": "Avian \u2022 Earth",
       "feralClass": "Bronze",
       "level": "Eight",
       "temperament": null,
@@ -275,13 +277,13 @@
     {
       "id": "bastionhorn",
       "name": "Bastionhorn",
-      "type": "Beast • Earth",
+      "type": "Beast \u2022 Earth",
       "feralClass": "Bronze",
       "level": null,
       "temperament": "Steadfast",
-      "notes": "System archive record acquired.",
+      "notes": "Bond-influenced evolution of Stonebuck. Retains Brace, Ram, and Stonehide. Unlocks Living Rampart.",
       "chapter": 9,
-      "flavor": "Stonebuck’s bond-influenced evolution. Fortress-like plates, branching horns, and an instinct to place itself between danger and its pack.",
+      "flavor": "Stonebuck\u2019s bond-influenced evolution. Fortress-like plates, branching horns, and an instinct to place itself between danger and its pack.",
       "height": "5 ft 2 in",
       "weight": "790 lb",
       "threat": "High",
@@ -297,7 +299,7 @@
     {
       "id": "meadow-strider",
       "name": "Meadow Strider",
-      "type": "Avian • Nature • Earth",
+      "type": "Avian \u2022 Nature \u2022 Earth",
       "feralClass": "Bronze",
       "level": "Eleven",
       "temperament": null,
@@ -314,13 +316,13 @@
     {
       "id": "cinder-drake",
       "name": "Cinder Drake",
-      "type": "Reptile • Ember • Wind",
+      "type": "Reptile \u2022 Ember \u2022 Wind",
       "feralClass": "Bronze",
       "level": "Nine",
       "temperament": null,
       "notes": "System scan recorded.",
       "chapter": 10,
-      "flavor": "A horned winged reptile that carries ember heat on the wind. Not a dragon—though the distinction may feel academic at close range.",
+      "flavor": "A horned winged reptile that carries ember heat on the wind. Not a dragon\u2014though the distinction may feel academic at close range.",
       "height": "6 ft 9 in",
       "weight": "510 lb",
       "threat": "High",
@@ -331,7 +333,7 @@
     {
       "id": "roadshell",
       "name": "Roadshell",
-      "type": "Beast • Earth",
+      "type": "Beast \u2022 Earth",
       "feralClass": "Silver",
       "level": "Thirty-One",
       "temperament": null,
@@ -348,7 +350,7 @@
     {
       "id": "mendkin",
       "name": "Mendkin",
-      "type": "Spirit • Renewal",
+      "type": "Spirit \u2022 Renewal",
       "feralClass": "Silver",
       "level": "Twenty-Eight",
       "temperament": null,
@@ -365,7 +367,7 @@
     {
       "id": "tinkerlet",
       "name": "Tinkerlet",
-      "type": "Beast • Metal",
+      "type": "Beast \u2022 Metal",
       "feralClass": "Common",
       "level": "One",
       "temperament": "Mischievous",
@@ -382,12 +384,12 @@
     {
       "id": "abysscoil",
       "name": "Abysscoil",
-      "type": "Water • Pressure",
+      "type": "Water \u2022 Pressure",
       "feralClass": "Silver",
       "level": "Eleven",
       "temperament": "Watchful",
-      "notes": "System archive record acquired.",
-      "chapter": 18,
+      "notes": "Initially recorded unbonded under forced collar control. Known abilities: Pressure Lance, Undertow Coil, Surge Step, Depth Crush.",
+      "chapter": 21,
       "flavor": "A colossal aquatic serpent with crown-like fins and control over crushing water pressure. Its archive carries evidence of captivity and forced combat.",
       "height": "28 ft 0 in",
       "weight": "2,900 lb",
@@ -404,11 +406,11 @@
     {
       "id": "shardwing",
       "name": "Shardwing",
-      "type": "Insectoid • Crystal",
+      "type": "Insectoid \u2022 Crystal",
       "feralClass": "Bronze",
       "level": "Twelve",
       "temperament": null,
-      "notes": "System archive record acquired.",
+      "notes": "Narrow silver insectoid Feral with four crystal wings ending in glass-like blades.",
       "chapter": 23,
       "flavor": "A narrow silver insect Feral with four crystal wings ending in glasslike blades. Precision and cutting angles define its attack style.",
       "height": "4 ft 9 in",
@@ -421,11 +423,11 @@
     {
       "id": "voltrake",
       "name": "Voltrake",
-      "type": "Beast • Lightning",
+      "type": "Beast \u2022 Lightning",
       "feralClass": "Bronze",
       "level": "Thirteen",
       "temperament": null,
-      "notes": "System archive record acquired.",
+      "notes": "Lean black jackal marked by yellow lines with electricity crawling between its teeth.",
       "chapter": 23,
       "flavor": "A lean black jackal traced with yellow current. Electricity crawls between its teeth before it commits to a strike.",
       "height": "3 ft 3 in",
@@ -438,11 +440,11 @@
     {
       "id": "stormlynx",
       "name": "Stormlynx",
-      "type": "Beast • Lightning",
+      "type": "Beast \u2022 Lightning",
       "feralClass": "Silver",
       "level": "Fourteen",
       "temperament": null,
-      "notes": "System archive record acquired.",
+      "notes": "Huge black catlike Feral with pale blue lightning moving beneath its skin.",
       "chapter": 24,
       "flavor": "A huge black cat with long ears and pale-blue lightning moving beneath its skin. Built to punish water-aligned opponents.",
       "height": "5 ft 0 in",
@@ -455,11 +457,11 @@
     {
       "id": "prismantis",
       "name": "Prismantis",
-      "type": "Insectoid • Reflection",
+      "type": "Insectoid \u2022 Reflection",
       "feralClass": "Bronze",
       "level": "Fifteen",
       "temperament": null,
-      "notes": "System archive record acquired.",
+      "notes": "Red insect Feral on four bladed legs with broad mirror-like plates used to redirect attacks.",
       "chapter": 24,
       "flavor": "A red four-legged mantis Feral protected by broad mirrorlike plates. Its reflective defenses make direct elemental attacks a dangerous gamble.",
       "height": "4 ft 6 in",
@@ -474,72 +476,72 @@
     {
       "id": "beginner-ration",
       "name": "Beginner Ration",
-      "category": "System Item",
+      "category": "Consumable",
       "chapter": 1,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Compact meal designed to provide basic nutrition. System taste rating: questionable."
     },
     {
       "id": "minor-healing-salve",
       "name": "Minor Healing Salve",
-      "category": "System Item",
+      "category": "Medical",
       "chapter": 1,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Basic topical healing item used for participant injuries."
     },
     {
       "id": "feral-treat",
       "name": "Feral Treat",
-      "category": "System Item",
+      "category": "Feral Care",
       "chapter": 1,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Consumable treat intended for Ferals."
     },
     {
       "id": "feral-restoration-tonic",
       "name": "Feral Restoration Tonic",
-      "category": "System Item",
+      "category": "Feral Care",
       "chapter": 4,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Restoration tonic used to support an injured bonded Feral."
     },
     {
       "id": "guardian-s-band",
-      "name": "Guardian’s Band",
-      "category": "System Item",
+      "name": "Guardian\u2019s Band",
+      "category": "Equipment",
       "chapter": 4,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Uncommon reward item received from a Blacktooth contribution reward."
     },
     {
       "id": "hunter-s-cord",
-      "name": "Hunter’s Cord",
-      "category": "System Item",
+      "name": "Hunter\u2019s Cord",
+      "category": "Equipment",
       "chapter": 6,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Random Uncommon reward received with Blacktooth materials and credits."
     },
     {
       "id": "blacktooth-scale-fur",
       "name": "Blacktooth Scale-Fur",
-      "category": "System Item",
+      "category": "Material",
       "chapter": 3,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Harvested Blacktooth material awarded after the challenge encounter."
     },
     {
       "id": "shadow-fang-fragment",
       "name": "Shadow Fang Fragment",
-      "category": "System Item",
+      "category": "Material",
       "chapter": 4,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Blacktooth-derived material fragment awarded through challenge loot."
     },
     {
       "id": "beginner-supply-voucher",
       "name": "Beginner Supply Voucher",
-      "category": "System Item",
+      "category": "Voucher",
       "chapter": 6,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Supply voucher awarded from a placement victory reward."
     },
     {
       "id": "regional-supply-token",
       "name": "Regional Supply Token",
-      "category": "System Item",
+      "category": "Token",
       "chapter": 22,
-      "description": "System-recorded item. Additional details remain chapter-locked until revealed."
+      "description": "Regional supply reward token archived later in the tournament progression."
     }
   ],
   "locations": [
@@ -554,9 +556,54 @@
     {
       "name": "Greenhaven",
       "chapter": 5
+    },
+    {
+      "name": "Greenhaven Participant Registry",
+      "chapter": 12,
+      "description": "City registration, orientation, participant services, and tournament onboarding."
+    },
+    {
+      "name": "City Archives",
+      "chapter": 12,
+      "description": "Restricted Greenhaven district tied to the unexplained black System line from Evan\u2019s bracelet."
+    },
+    {
+      "name": "Feral Commons",
+      "chapter": 13,
+      "description": "Public Feral habitat and beginner contract area; twelve Tinkerlets escape here."
+    },
+    {
+      "name": "Feral-care District",
+      "chapter": 11,
+      "description": "Greenhaven district of clinics, pools, flying-Feral towers, treatment rooms, and emergency care."
+    },
+    {
+      "name": "Public Training Hall",
+      "chapter": 14,
+      "description": "Training access provided through the Greenhaven orientation package."
+    },
+    {
+      "name": "The Hollow",
+      "chapter": 21,
+      "description": "Underground venue connected to forced Feral control and the Abysscoil records."
+    },
+    {
+      "name": "Route Provisioning Station",
+      "chapter": 31,
+      "description": "Regional route facility tied to supply-token provisioning and field objectives."
+    },
+    {
+      "name": "Service Chamber \u2014 Vector Site",
+      "chapter": 33,
+      "description": "Old service chamber containing the unclaimed Vector Essence and demonstration rig."
+    },
+    {
+      "name": "Combat Trial Arena",
+      "chapter": 45,
+      "description": "Six-minute team ground trial arena with covered passages, water runs, scoring rings, and medical-stop rules."
     }
   ],
-  "version": "0.3",
+  "version": "0.6-book1-complete",
   "sanctuary": {
     "rules": [
       "Protected digital-biological environment housed within the Personal Interface Device.",
@@ -571,7 +618,7 @@
         "theme": "Ember / Gravity",
         "unlockChapter": 1,
         "habitat": "Mixed woodland sanctuary with stream access, warm resting stone, and reinforced open ground.",
-        "summary": "A shared habitat built around Cinderkit’s preference for warm, sheltered rest and Roxy’s need for space, visibility, and room to guard her pack.",
+        "summary": "A shared habitat built around Cinderkit\u2019s preference for warm, sheltered rest and Roxy\u2019s need for space, visibility, and room to guard her pack.",
         "residents": [
           {
             "feralId": "cinderkit",
@@ -602,7 +649,7 @@
         "theme": "Earth / Water",
         "unlockChapter": 3,
         "habitat": "Stone-lined meadow feeding into a deep-water habitat, giving heavy defenders stable footing and aquatic Ferals enough depth to coil and swim.",
-        "summary": "A defensive sanctuary shaped around Evan’s bonded partners: solid ground for his earth guardian and protected deep water for Abysscoil.",
+        "summary": "A defensive sanctuary shaped around Evan\u2019s bonded partners: solid ground for his earth guardian and protected deep water for Abysscoil.",
         "residents": [
           {
             "feralId": "stonebuck",
@@ -630,5 +677,668 @@
         ]
       }
     ]
-  }
+  },
+  "availableThrough": 60,
+  "abilities": [
+    {
+      "name": "Shadow Prowl",
+      "owner": "Blacktooth",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Blacktooth. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Rending Pounce",
+      "owner": "Blacktooth",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Blacktooth. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Black Fang",
+      "owner": "Blacktooth",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Blacktooth. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Brace",
+      "owner": "Stonebuck",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Stonebuck. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Ram",
+      "owner": "Stonebuck",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Stonebuck. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Stonehide",
+      "owner": "Stonebuck",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Stonebuck. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Spore Burst",
+      "owner": "Gloomhopper",
+      "kind": "Feral Ability",
+      "chapter": 3,
+      "description": "Known ability archived for Gloomhopper. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Drench",
+      "owner": "Bogjaw",
+      "kind": "Feral Ability",
+      "chapter": 5,
+      "description": "Known ability archived for Bogjaw. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Crushing Paw",
+      "owner": "Bogjaw",
+      "kind": "Feral Ability",
+      "chapter": 5,
+      "description": "Known ability archived for Bogjaw. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Mud Rush",
+      "owner": "Bogjaw",
+      "kind": "Feral Ability",
+      "chapter": 5,
+      "description": "Known ability archived for Bogjaw. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Bristle Rush",
+      "owner": "Bramblehog",
+      "kind": "Feral Ability",
+      "chapter": 6,
+      "description": "Known ability archived for Bramblehog. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Root Dig",
+      "owner": "Bramblehog",
+      "kind": "Feral Ability",
+      "chapter": 6,
+      "description": "Known ability archived for Bramblehog. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Flashfeather",
+      "owner": "Glimmerwing",
+      "kind": "Feral Ability",
+      "chapter": 6,
+      "description": "Known ability archived for Glimmerwing. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Keen Sight",
+      "owner": "Glimmerwing",
+      "kind": "Feral Ability",
+      "chapter": 6,
+      "description": "Known ability archived for Glimmerwing. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Gravity Rush",
+      "owner": "Gravahound",
+      "kind": "Feral Ability",
+      "chapter": 7,
+      "description": "Known ability archived for Gravahound. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Crushing Lock",
+      "owner": "Gravahound",
+      "kind": "Feral Ability",
+      "chapter": 7,
+      "description": "Known ability archived for Gravahound. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Guardian\u2019s Claim",
+      "owner": "Gravahound",
+      "kind": "Feral Ability",
+      "chapter": 7,
+      "description": "Known ability archived for Gravahound. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Cleaving Step",
+      "owner": "Scytheclaw",
+      "kind": "Feral Ability",
+      "chapter": 7,
+      "description": "Known ability archived for Scytheclaw. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Bone Shear",
+      "owner": "Scytheclaw",
+      "kind": "Feral Ability",
+      "chapter": 7,
+      "description": "Known ability archived for Scytheclaw. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Scent Lock",
+      "owner": "Scytheclaw",
+      "kind": "Feral Ability",
+      "chapter": 7,
+      "description": "Known ability archived for Scytheclaw. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Boulder Drop",
+      "owner": "Shatterwing Rook",
+      "kind": "Feral Ability",
+      "chapter": 9,
+      "description": "Known ability archived for Shatterwing Rook. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Shardstorm",
+      "owner": "Shatterwing Rook",
+      "kind": "Feral Ability",
+      "chapter": 9,
+      "description": "Known ability archived for Shatterwing Rook. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Crushing Dive",
+      "owner": "Shatterwing Rook",
+      "kind": "Feral Ability",
+      "chapter": 9,
+      "description": "Known ability archived for Shatterwing Rook. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Living Rampart",
+      "owner": "Bastionhorn",
+      "kind": "Feral Ability",
+      "chapter": 9,
+      "description": "Known ability archived for Bastionhorn. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Pressure Lance",
+      "owner": "Abysscoil",
+      "kind": "Feral Ability",
+      "chapter": 18,
+      "description": "Known ability archived for Abysscoil. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Undertow Coil",
+      "owner": "Abysscoil",
+      "kind": "Feral Ability",
+      "chapter": 18,
+      "description": "Known ability archived for Abysscoil. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Surge Step",
+      "owner": "Abysscoil",
+      "kind": "Feral Ability",
+      "chapter": 18,
+      "description": "Known ability archived for Abysscoil. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Depth Crush",
+      "owner": "Abysscoil",
+      "kind": "Feral Ability",
+      "chapter": 18,
+      "description": "Known ability archived for Abysscoil. Detailed mechanics remain limited to what the System has revealed."
+    },
+    {
+      "name": "Momentum Bank",
+      "owner": "Reid",
+      "kind": "Passive",
+      "chapter": 7,
+      "description": "Passive ability unlocked through the Kinetic Essence. Stores usable momentum under qualifying movement conditions."
+    },
+    {
+      "name": "Kinetic Surge",
+      "owner": "Reid",
+      "kind": "Active",
+      "chapter": 7,
+      "description": "Active Kinetic Essence ability that releases stored kinetic force in a concentrated surge."
+    },
+    {
+      "name": "Vector Control",
+      "chapter": 33,
+      "owner": "Evan",
+      "kind": "Essence Ability",
+      "description": "Bends the direction of motion of a touched object. Early use works best on smaller objects and strains Evan\u2019s muscles and balance when overused."
+    }
+  ],
+  "essences": [
+    {
+      "name": "Unknown Essence",
+      "chapter": 1,
+      "status": "Unanalyzed",
+      "owner": "Inventory",
+      "description": "An unidentified Essence. The System warns that integration before analysis may cause rejection, permanent injury, ability corruption, loss of function, or death."
+    },
+    {
+      "name": "Kinetic Essence",
+      "chapter": 7,
+      "status": "Integrated",
+      "owner": "Reid",
+      "description": "The Essence integrated by Reid. It unlocks Momentum Bank and Kinetic Surge."
+    },
+    {
+      "name": "Vector Essence",
+      "chapter": 33,
+      "status": "Integrated",
+      "owner": "Evan",
+      "description": "Unbound Essence discovered in an old service chamber. Primary affinity: direction of motion. It lets Evan bend the movement of an object he touches; initial control favors smaller objects and cannot directly control another living body."
+    }
+  ],
+  "quests": [
+    {
+      "name": "Survive the First Night",
+      "chapter": 1,
+      "type": "Quest",
+      "status": "Completed",
+      "objectives": [
+        "Find food",
+        "Find shelter",
+        "Treat your injuries",
+        "Avoid death"
+      ],
+      "description": "The first explicit System quest issued to Reid and Evan."
+    },
+    {
+      "name": "The Hungry Night",
+      "chapter": 2,
+      "type": "Challenge",
+      "status": "Completed",
+      "objectives": [
+        "Survive until sunrise",
+        "Defeat challenge targets for points",
+        "Remain inside the designated challenge region"
+      ],
+      "description": "The First Challenge. Predatory Ferals receive temporary enhancements and are drawn toward participant locations."
+    },
+    {
+      "name": "Achieve Master Rank",
+      "chapter": 2,
+      "type": "Tournament Objective",
+      "status": "Active",
+      "objectives": [
+        "Progress through participant ranks",
+        "Qualify for the Masters Tournament"
+      ],
+      "description": "The Tournament\u2019s overarching progression objective."
+    },
+    {
+      "name": "Feral Commons Assistance",
+      "chapter": 13,
+      "type": "City Contract",
+      "status": "Completed",
+      "description": "Return twelve escaped young Tinkerlets to their sleeping den before sunset without injuries, fire, property damage, or uncontrolled predatory Ferals.",
+      "objectives": [
+        "Locate twelve Tinkerlets",
+        "Return all twelve",
+        "Avoid injuries",
+        "Avoid fire/property damage"
+      ]
+    },
+    {
+      "name": "Greenhaven Combat Trial",
+      "chapter": 45,
+      "type": "Assessment",
+      "status": "Completed",
+      "description": "Team ring-scoring trial using terrain, covered passages, water routes, and registered Ferals.",
+      "objectives": [
+        "Carry rings one at a time",
+        "Score four rings",
+        "Use Ferals to clear/retrieve",
+        "Avoid medical removal"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "name": "First Bond",
+      "chapter": 1,
+      "description": "Awarded when the first Feral bond is established."
+    },
+    {
+      "name": "First Bond Synergy",
+      "chapter": 5,
+      "description": "Achievement awarded after a bonded trainer and Feral demonstrate qualifying synergy."
+    }
+  ],
+  "profiles": {
+    "reid": {
+      "name": "Reid",
+      "initialRank": "Unranked",
+      "status": "Active Participant",
+      "essence": "Kinetic Essence",
+      "notes": "Competitive, impulsive, and increasingly tied to the System through his bonded Ferals and Kinetic Essence."
+    },
+    "evan": {
+      "name": "Evan",
+      "initialRank": "Unranked",
+      "status": "Active Participant",
+      "essence": "None archived",
+      "notes": "A cautious tactical trainer whose bonds emphasize protection, stability, and control."
+    }
+  },
+  "ranks": [
+    "Unranked",
+    "Novice",
+    "Bronze",
+    "Iron",
+    "Steel",
+    "Silver",
+    "Gold",
+    "Master"
+  ],
+  "tournament": {
+    "name": "Ascension Tournament",
+    "registeredParticipants": "35,000 at initial registration",
+    "initialStage": "Preparation",
+    "objective": "Achieve Master Rank",
+    "masterUnlock": "Masters Tournament",
+    "activeFeralLimits": [
+      "Placement through Silver: 1 active Feral",
+      "Gold: 2 active Ferals",
+      "Master: 3 active Ferals"
+    ]
+  },
+  "systemInfo": [
+    {
+      "name": "Personal Interface",
+      "chapter": 1,
+      "text": "Permanently bonded to registered tournament participants."
+    },
+    {
+      "name": "Sanctuary",
+      "chapter": 1,
+      "text": "Protected habitat storage accessible through the Personal Interface."
+    },
+    {
+      "name": "Feral Acquisition",
+      "chapter": 5,
+      "text": "Known methods include voluntary bonding, battle submission, trapping, quest reward, trade, and other qualifying interactions."
+    },
+    {
+      "name": "Greenhaven Services",
+      "chapter": 5,
+      "text": "Lodging, commerce, crafting, Feral care, Essence services, contracts, quests, and tournament facilities."
+    },
+    {
+      "name": "Active Feral Limits",
+      "chapter": 8,
+      "text": "Outside sanctioned matches, multiple bonded Ferals may be manifested. Tournament limits depend on rank and event rules."
+    },
+    {
+      "name": "Greenhaven Settlement Protections",
+      "chapter": 11,
+      "text": "Unsanctioned participant combat is prohibited inside Greenhaven. Theft, intentional property damage, and unregistered Feral aggression can cause fines, confinement, or tournament penalties."
+    },
+    {
+      "name": "Rank Advancement",
+      "chapter": 12,
+      "text": "Tournament Points, ranked performance, regional objectives, contracts, discoveries, and bond development may contribute. Higher ranks unlock regions, active-Feral capacity, services, and tournament stages."
+    },
+    {
+      "name": "Placement Lethal Confirmation",
+      "chapter": 12,
+      "text": "Placement matches use lethal confirmation; defeated participants are transferred into Tournament Authority custody. Further status details are restricted."
+    },
+    {
+      "name": "Ascension Audience",
+      "chapter": 12,
+      "text": "Master Rank qualifies participants for the Masters Tournament. Masters competitors may earn an Ascension Audience and present a claim before the Sovereign."
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Chapter 1: Sand in His Mouth"
+    },
+    {
+      "chapter": 2,
+      "title": "Chapter 2: Our First Night and"
+    },
+    {
+      "chapter": 3,
+      "title": "Chapter 3: Teeth in the Dark"
+    },
+    {
+      "chapter": 4,
+      "title": "Chapter 4: The Lethal Rule"
+    },
+    {
+      "chapter": 5,
+      "title": "Chapter 5: Outsmarted"
+    },
+    {
+      "chapter": 6,
+      "title": "Chapter 6: Eleven Kilometers"
+    },
+    {
+      "chapter": 7,
+      "title": "Chapter 7: The Wrong Trap"
+    },
+    {
+      "chapter": 8,
+      "title": "Chapter 8: Roxy"
+    },
+    {
+      "chapter": 9,
+      "title": "Chapter 9: The Last Mile"
+    },
+    {
+      "chapter": 10,
+      "title": "Chapter 10: Greenhaven"
+    },
+    {
+      "chapter": 11,
+      "title": "Twelve Days"
+    },
+    {
+      "chapter": 12,
+      "title": "Rules for Civilization"
+    },
+    {
+      "chapter": 13,
+      "title": "Easy Money Is a Lie"
+    },
+    {
+      "chapter": 14,
+      "title": "Controlled Damage"
+    },
+    {
+      "chapter": 15,
+      "title": "The Lights That Did Not Shine"
+    },
+    {
+      "chapter": 16,
+      "title": "The Weigh-In"
+    },
+    {
+      "chapter": 17,
+      "title": "Zero Bad Ideas"
+    },
+    {
+      "chapter": 18,
+      "title": "The Collar Man"
+    },
+    {
+      "chapter": 19,
+      "title": "Break the Chain"
+    },
+    {
+      "chapter": 20,
+      "title": "The Most Expensive Exit"
+    },
+    {
+      "chapter": 21,
+      "title": "A Serpent in the Bathtub"
+    },
+    {
+      "chapter": 22,
+      "title": "Nine Days"
+    },
+    {
+      "chapter": 23,
+      "title": "The Skycourt"
+    },
+    {
+      "chapter": 24,
+      "title": "Fortress Tide"
+    },
+    {
+      "chapter": 25,
+      "title": "The Eastern Gate"
+    },
+    {
+      "chapter": 26,
+      "title": "The Road Has Teeth"
+    },
+    {
+      "chapter": 27,
+      "title": "One More Morning"
+    },
+    {
+      "chapter": 28,
+      "title": "The Last Light"
+    },
+    {
+      "chapter": 29,
+      "title": "The Empty Seat"
+    },
+    {
+      "chapter": 30,
+      "title": "Hold Together"
+    },
+    {
+      "chapter": 31,
+      "title": "The Complaint Department"
+    },
+    {
+      "chapter": 32,
+      "title": "Water Goes Down"
+    },
+    {
+      "chapter": 33,
+      "title": "The Wrong Way Up"
+    },
+    {
+      "chapter": 34,
+      "title": "No Throwing Spoons"
+    },
+    {
+      "chapter": 35,
+      "title": "They Watched the Replays"
+    },
+    {
+      "chapter": 36,
+      "title": "The Road They Chose"
+    },
+    {
+      "chapter": 37,
+      "title": "The Steps Between"
+    },
+    {
+      "chapter": 38,
+      "title": "Let Them Come"
+    },
+    {
+      "chapter": 39,
+      "title": "Room to Turn"
+    },
+    {
+      "chapter": 40,
+      "title": "What Comes Next"
+    },
+    {
+      "chapter": 41,
+      "title": "The Other Stair"
+    },
+    {
+      "chapter": 42,
+      "title": "Trade Places"
+    },
+    {
+      "chapter": 43,
+      "title": "A Place in the Sun"
+    },
+    {
+      "chapter": 44,
+      "title": "The Water Beneath"
+    },
+    {
+      "chapter": 45,
+      "title": "Small Enough"
+    },
+    {
+      "chapter": 46,
+      "title": "Around the Corner"
+    },
+    {
+      "chapter": 47,
+      "title": "The Bell Orchard"
+    },
+    {
+      "chapter": 48,
+      "title": "The Gap in the Wall"
+    },
+    {
+      "chapter": 49,
+      "title": "Five Seconds"
+    },
+    {
+      "chapter": 50,
+      "title": "The Last Stair"
+    },
+    {
+      "chapter": 51,
+      "title": "Three at the Table"
+    },
+    {
+      "chapter": 52,
+      "title": "The Door That Was Not There"
+    },
+    {
+      "chapter": 53,
+      "title": "The Warden's Offer"
+    },
+    {
+      "chapter": 54,
+      "title": "What Roxy Could Hold"
+    },
+    {
+      "chapter": 55,
+      "title": "Still Roxy"
+    },
+    {
+      "chapter": 56,
+      "title": "Two Different Answers"
+    },
+    {
+      "chapter": 57,
+      "title": "The Whole Record"
+    },
+    {
+      "chapter": 58,
+      "title": "The Floor Beneath Them"
+    },
+    {
+      "chapter": 59,
+      "title": "Three Seconds"
+    },
+    {
+      "chapter": 60,
+      "title": "The Gates of Master"
+    }
+  ],
+  "feralEvents": [
+    {
+      "name": "Cinderkit reaches Level 2",
+      "chapter": 3,
+      "description": "Growth threshold reached after the Blacktooth fight."
+    },
+    {
+      "name": "Stonebuck evolves into Bastionhorn",
+      "chapter": 9,
+      "description": "Bond-influenced evolution. Class advances Common \u2192 Bronze; Living Rampart unlocks."
+    },
+    {
+      "name": "Roxy \u2014 Titanblood Awakened",
+      "chapter": 55,
+      "description": "Roxy\u2019s Titanblood lineage awakens. System scan records Class: Master; level unchanged by lineage awakening; severe exertion and recovery required."
+    }
+  ]
 }

@@ -1,10 +1,9 @@
-# Feral Ascension HUD v0.4 — Sanctuary
+# Feral Ascension Personal Interface — Book 1 Complete
 
-Mobile-first GitHub Pages HUD for the Feral Ascension series.
+GitHub Pages-ready, mobile-first HUD companion for **Feral Assention**. Canon archive synchronized through **Book 1, Chapter 60** from the supplied 550-page manuscript.
 
-## Root-only repository layout
-All project files belong directly in the repository root:
-
+## Root-only repository
+Upload these files directly to repository root:
 - `index.html`
 - `style.css`
 - `app.js`
@@ -12,17 +11,10 @@ All project files belong directly in the repository root:
 - `manifest.json`
 - `README.md`
 
-Do not place project/data files in subfolders.
+No project subfolders are required. Images remain intentionally unimplemented.
 
-## v0.4 additions
-- Interactive Sanctuary module
-- Reid / Evan trainer sanctuary switching
-- Chapter-synced bonded residents
-- Stonebuck → Bastionhorn evolution synchronization at Chapter 9
-- Roxy / Titanblood Gravahound resident profile
-- Abysscoil resident unlock and Freedom bond data
-- Habitat scene, resident markers, bonded-resident cards, Sanctuary protocol
-- Story progress range extended through current Chapter 45
+## Chapter Sync
+Reader Mode gates records by first safe chapter. Archive Mode reveals the complete Book 1 database. Progress is stored locally in the browser.
 
-## Deploy
-Upload the six files to the repository root, enable GitHub Pages from the root branch, and open the Pages URL on mobile.
+## Canon vs flavor stats
+System/book facts are archived as canon. Height, weight, habitat, role, and threat fields marked with `*` in the Dex are companion-app flavor estimates unless the manuscript explicitly supplies them.

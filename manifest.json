@@ -1,1 +1,8 @@
-{"name":"Feral Ascension // Personal Interface","short_name":"Feral HUD","start_url":"./","display":"standalone","background_color":"#050b0a","theme_color":"#07100e","icons":[]}
+{
+  "name": "Feral Ascension HUD",
+  "short_name": "FA HUD",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#071512",
+  "theme_color": "#071512"
+}
