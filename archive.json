@@ -5,7 +5,7 @@
     {
       "id": "cinderkit",
       "name": "Cinderkit",
-      "type": "Beast \u2022 Ember",
+      "type": "Beast • Ember",
       "feralClass": "Common",
       "level": null,
       "temperament": "Cautious",
@@ -19,12 +19,14 @@
       "role": "Quick-footed skirmisher",
       "abilities": [
         "Ember Spit"
-      ]
+      ],
+      "image": "feral-cinderkit.webp",
+      "imageAlt": "Original Feral Dex artwork for Cinderkit"
     },
     {
       "id": "thornmaw",
       "name": "Thornmaw",
-      "type": "Reptile \u2022 Plant",
+      "type": "Reptile • Plant",
       "feralClass": "Common",
       "level": null,
       "temperament": "Aggressive",
@@ -36,12 +38,14 @@
       "threat": "Moderate",
       "habitat": "Dense brush",
       "role": "Ambush bruiser",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-thornmaw.webp",
+      "imageAlt": "Original Feral Dex artwork for Thornmaw"
     },
     {
       "id": "gravemaw-ursal",
       "name": "Gravemaw Ursal",
-      "type": "Beast \u2022 Earth \u2022 Unknown",
+      "type": "Beast • Earth • Unknown",
       "feralClass": "Unknown",
       "level": "Unknown",
       "temperament": null,
@@ -53,12 +57,14 @@
       "threat": "Fatal",
       "habitat": "Rocky wilds",
       "role": "Heavy assault",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-gravemaw-ursal.webp",
+      "imageAlt": "Original Feral Dex artwork for Gravemaw Ursal"
     },
     {
       "id": "blacktooth",
       "name": "Blacktooth",
-      "type": "Beast \u2022 Shadow",
+      "type": "Beast • Shadow",
       "feralClass": "Bronze",
       "level": "Nine",
       "temperament": "Predatory",
@@ -74,12 +80,14 @@
         "Shadow Prowl",
         "Rending Pounce",
         "Black Fang"
-      ]
+      ],
+      "image": "feral-blacktooth.webp",
+      "imageAlt": "Original Feral Dex artwork for Blacktooth"
     },
     {
       "id": "stonebuck",
       "name": "Stonebuck",
-      "type": "Beast \u2022 Earth",
+      "type": "Beast • Earth",
       "feralClass": "Common",
       "level": "Four",
       "temperament": "Stubborn",
@@ -95,12 +103,14 @@
         "Brace",
         "Ram",
         "Stonehide"
-      ]
+      ],
+      "image": "feral-stonebuck.webp",
+      "imageAlt": "Original Feral Dex artwork for Stonebuck"
     },
     {
       "id": "razorwing",
       "name": "Razorwing",
-      "type": "Avian \u2022 Metal",
+      "type": "Avian • Metal",
       "feralClass": "Common",
       "level": "Three",
       "temperament": null,
@@ -112,12 +122,14 @@
       "threat": "Moderate",
       "habitat": "Cliffs / open sky",
       "role": "Aerial striker",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-razorwing.webp",
+      "imageAlt": "Original Feral Dex artwork for Razorwing"
     },
     {
       "id": "gloomhopper",
       "name": "Gloomhopper",
-      "type": "Amphibian \u2022 Fungal",
+      "type": "Amphibian • Fungal",
       "feralClass": "Common",
       "level": "Five",
       "temperament": null,
@@ -131,12 +143,14 @@
       "role": "Area control",
       "abilities": [
         "Spore Burst"
-      ]
+      ],
+      "image": "feral-gloomhopper.webp",
+      "imageAlt": "Original Feral Dex artwork for Gloomhopper"
     },
     {
       "id": "bogjaw",
       "name": "Bogjaw",
-      "type": "Water \u2022 Beast",
+      "type": "Water • Beast",
       "feralClass": "Common",
       "level": "Five",
       "temperament": "Territorial",
@@ -152,12 +166,14 @@
         "Drench",
         "Crushing Paw",
         "Mud Rush"
-      ]
+      ],
+      "image": "feral-bogjaw.webp",
+      "imageAlt": "Original Feral Dex artwork for Bogjaw"
     },
     {
       "id": "bramblehog",
       "name": "Bramblehog",
-      "type": "Beast \u2022 Nature",
+      "type": "Beast • Nature",
       "feralClass": "Common",
       "level": null,
       "temperament": "Suspicious",
@@ -172,12 +188,14 @@
       "abilities": [
         "Bristle Rush",
         "Root Dig"
-      ]
+      ],
+      "image": "feral-bramblehog.webp",
+      "imageAlt": "Original Feral Dex artwork for Bramblehog"
     },
     {
       "id": "glimmerwing",
       "name": "Glimmerwing",
-      "type": "Avian \u2022 Light",
+      "type": "Avian • Light",
       "feralClass": "Common",
       "level": null,
       "temperament": null,
@@ -192,12 +210,14 @@
       "abilities": [
         "Flashfeather",
         "Keen Sight"
-      ]
+      ],
+      "image": "feral-glimmerwing.webp",
+      "imageAlt": "Original Feral Dex artwork for Glimmerwing"
     },
     {
       "id": "gravahound",
       "name": "Gravahound",
-      "type": "Beast \u2022 Gravity",
+      "type": "Beast • Gravity",
       "feralClass": "Bronze",
       "level": "Six",
       "temperament": null,
@@ -212,13 +232,15 @@
       "abilities": [
         "Gravity Rush",
         "Crushing Lock",
-        "Guardian\u2019s Claim"
-      ]
+        "Guardian’s Claim"
+      ],
+      "image": "feral-gravahound.webp",
+      "imageAlt": "Original Feral Dex artwork for Gravahound"
     },
     {
       "id": "scytheclaw",
       "name": "Scytheclaw",
-      "type": "Insectoid \u2022 Bone",
+      "type": "Insectoid • Bone",
       "feralClass": "Bronze",
       "level": "Twelve",
       "temperament": "Relentless",
@@ -234,14 +256,16 @@
         "Cleaving Step",
         "Bone Shear",
         "Scent Lock"
-      ]
+      ],
+      "image": "feral-scytheclaw.webp",
+      "imageAlt": "Original Feral Dex artwork for Scytheclaw"
     },
     {
       "id": "shatterwing",
       "name": "Shatterwing",
-      "type": "Avian \u2022 Earth",
+      "type": "Avian • Earth",
       "feralClass": "Common",
-      "level": "4\u20136",
+      "level": "4–6",
       "temperament": null,
       "notes": "System scan recorded.",
       "chapter": 9,
@@ -251,12 +275,14 @@
       "threat": "Moderate",
       "habitat": "Cliffs",
       "role": "Flock striker",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-shatterwing.webp",
+      "imageAlt": "Original Feral Dex artwork for Shatterwing"
     },
     {
       "id": "shatterwing-rook",
       "name": "Shatterwing Rook",
-      "type": "Avian \u2022 Earth",
+      "type": "Avian • Earth",
       "feralClass": "Bronze",
       "level": "Eight",
       "temperament": null,
@@ -272,18 +298,20 @@
         "Boulder Drop",
         "Shardstorm",
         "Crushing Dive"
-      ]
+      ],
+      "image": "feral-shatterwing-rook.webp",
+      "imageAlt": "Original Feral Dex artwork for Shatterwing Rook"
     },
     {
       "id": "bastionhorn",
       "name": "Bastionhorn",
-      "type": "Beast \u2022 Earth",
+      "type": "Beast • Earth",
       "feralClass": "Bronze",
       "level": null,
       "temperament": "Steadfast",
       "notes": "Bond-influenced evolution of Stonebuck. Retains Brace, Ram, and Stonehide. Unlocks Living Rampart.",
       "chapter": 9,
-      "flavor": "Stonebuck\u2019s bond-influenced evolution. Fortress-like plates, branching horns, and an instinct to place itself between danger and its pack.",
+      "flavor": "Stonebuck’s bond-influenced evolution. Fortress-like plates, branching horns, and an instinct to place itself between danger and its pack.",
       "height": "5 ft 2 in",
       "weight": "790 lb",
       "threat": "High",
@@ -294,12 +322,14 @@
         "Ram",
         "Stonehide",
         "Living Rampart"
-      ]
+      ],
+      "image": "feral-bastionhorn.webp",
+      "imageAlt": "Original Feral Dex artwork for Bastionhorn"
     },
     {
       "id": "meadow-strider",
       "name": "Meadow Strider",
-      "type": "Avian \u2022 Nature \u2022 Earth",
+      "type": "Avian • Nature • Earth",
       "feralClass": "Bronze",
       "level": "Eleven",
       "temperament": null,
@@ -311,29 +341,33 @@
       "threat": "Moderate",
       "habitat": "Grassland",
       "role": "Mobile habitat",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-meadow-strider.webp",
+      "imageAlt": "Original Feral Dex artwork for Meadow Strider"
     },
     {
       "id": "cinder-drake",
       "name": "Cinder Drake",
-      "type": "Reptile \u2022 Ember \u2022 Wind",
+      "type": "Reptile • Ember • Wind",
       "feralClass": "Bronze",
       "level": "Nine",
       "temperament": null,
       "notes": "System scan recorded.",
       "chapter": 10,
-      "flavor": "A horned winged reptile that carries ember heat on the wind. Not a dragon\u2014though the distinction may feel academic at close range.",
+      "flavor": "A horned winged reptile that carries ember heat on the wind. Not a dragon—though the distinction may feel academic at close range.",
       "height": "6 ft 9 in",
       "weight": "510 lb",
       "threat": "High",
       "habitat": "Open sky / warm regions",
       "role": "Aerial fire striker",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-cinder-drake.webp",
+      "imageAlt": "Original Feral Dex artwork for Cinder Drake"
     },
     {
       "id": "roadshell",
       "name": "Roadshell",
-      "type": "Beast \u2022 Earth",
+      "type": "Beast • Earth",
       "feralClass": "Silver",
       "level": "Thirty-One",
       "temperament": null,
@@ -345,12 +379,14 @@
       "threat": "Controlled",
       "habitat": "Registered transit routes",
       "role": "Public transit",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-roadshell.webp",
+      "imageAlt": "Original Feral Dex artwork for Roadshell"
     },
     {
       "id": "mendkin",
       "name": "Mendkin",
-      "type": "Spirit \u2022 Renewal",
+      "type": "Spirit • Renewal",
       "feralClass": "Silver",
       "level": "Twenty-Eight",
       "temperament": null,
@@ -362,12 +398,14 @@
       "threat": "Minimal",
       "habitat": "Clinics / care facilities",
       "role": "Healer",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-mendkin.webp",
+      "imageAlt": "Original Feral Dex artwork for Mendkin"
     },
     {
       "id": "tinkerlet",
       "name": "Tinkerlet",
-      "type": "Beast \u2022 Metal",
+      "type": "Beast • Metal",
       "feralClass": "Common",
       "level": "One",
       "temperament": "Mischievous",
@@ -379,12 +417,14 @@
       "threat": "Low",
       "habitat": "Settlements / scrap",
       "role": "Scavenger",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-tinkerlet.webp",
+      "imageAlt": "Original Feral Dex artwork for Tinkerlet"
     },
     {
       "id": "abysscoil",
       "name": "Abysscoil",
-      "type": "Water \u2022 Pressure",
+      "type": "Water • Pressure",
       "feralClass": "Silver",
       "level": "Eleven",
       "temperament": "Watchful",
@@ -401,12 +441,14 @@
         "Undertow Coil",
         "Surge Step",
         "Depth Crush"
-      ]
+      ],
+      "image": "feral-abysscoil.webp",
+      "imageAlt": "Original Feral Dex artwork for Abysscoil"
     },
     {
       "id": "shardwing",
       "name": "Shardwing",
-      "type": "Insectoid \u2022 Crystal",
+      "type": "Insectoid • Crystal",
       "feralClass": "Bronze",
       "level": "Twelve",
       "temperament": null,
@@ -418,12 +460,14 @@
       "threat": "High",
       "habitat": "Arena / open air",
       "role": "Precision striker",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-shardwing.webp",
+      "imageAlt": "Original Feral Dex artwork for Shardwing"
     },
     {
       "id": "voltrake",
       "name": "Voltrake",
-      "type": "Beast \u2022 Lightning",
+      "type": "Beast • Lightning",
       "feralClass": "Bronze",
       "level": "Thirteen",
       "temperament": null,
@@ -435,12 +479,14 @@
       "threat": "High",
       "habitat": "Open terrain",
       "role": "Lightning skirmisher",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-voltrake.webp",
+      "imageAlt": "Original Feral Dex artwork for Voltrake"
     },
     {
       "id": "stormlynx",
       "name": "Stormlynx",
-      "type": "Beast \u2022 Lightning",
+      "type": "Beast • Lightning",
       "feralClass": "Silver",
       "level": "Fourteen",
       "temperament": null,
@@ -452,12 +498,14 @@
       "threat": "Severe",
       "habitat": "Arena / open terrain",
       "role": "Anti-water striker",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-stormlynx.webp",
+      "imageAlt": "Original Feral Dex artwork for Stormlynx"
     },
     {
       "id": "prismantis",
       "name": "Prismantis",
-      "type": "Insectoid \u2022 Reflection",
+      "type": "Insectoid • Reflection",
       "feralClass": "Bronze",
       "level": "Fifteen",
       "temperament": null,
@@ -469,7 +517,9 @@
       "threat": "High",
       "habitat": "Arena",
       "role": "Reflective defender",
-      "abilities": []
+      "abilities": [],
+      "image": "feral-prismantis.webp",
+      "imageAlt": "Original Feral Dex artwork for Prismantis"
     }
   ],
   "items": [
@@ -503,14 +553,14 @@
     },
     {
       "id": "guardian-s-band",
-      "name": "Guardian\u2019s Band",
+      "name": "Guardian’s Band",
       "category": "Equipment",
       "chapter": 4,
       "description": "Uncommon reward item received from a Blacktooth contribution reward."
     },
     {
       "id": "hunter-s-cord",
-      "name": "Hunter\u2019s Cord",
+      "name": "Hunter’s Cord",
       "category": "Equipment",
       "chapter": 6,
       "description": "Random Uncommon reward received with Blacktooth materials and credits."
@@ -565,7 +615,7 @@
     {
       "name": "City Archives",
       "chapter": 12,
-      "description": "Restricted Greenhaven district tied to the unexplained black System line from Evan\u2019s bracelet."
+      "description": "Restricted Greenhaven district tied to the unexplained black System line from Evan’s bracelet."
     },
     {
       "name": "Feral Commons",
@@ -593,7 +643,7 @@
       "description": "Regional route facility tied to supply-token provisioning and field objectives."
     },
     {
-      "name": "Service Chamber \u2014 Vector Site",
+      "name": "Service Chamber — Vector Site",
       "chapter": 33,
       "description": "Old service chamber containing the unclaimed Vector Essence and demonstration rig."
     },
@@ -618,7 +668,7 @@
         "theme": "Ember / Gravity",
         "unlockChapter": 1,
         "habitat": "Mixed woodland sanctuary with stream access, warm resting stone, and reinforced open ground.",
-        "summary": "A shared habitat built around Cinderkit\u2019s preference for warm, sheltered rest and Roxy\u2019s need for space, visibility, and room to guard her pack.",
+        "summary": "A shared habitat built around Cinderkit’s preference for warm, sheltered rest and Roxy’s need for space, visibility, and room to guard her pack.",
         "residents": [
           {
             "feralId": "cinderkit",
@@ -649,7 +699,7 @@
         "theme": "Earth / Water",
         "unlockChapter": 3,
         "habitat": "Stone-lined meadow feeding into a deep-water habitat, giving heavy defenders stable footing and aquatic Ferals enough depth to coil and swim.",
-        "summary": "A defensive sanctuary shaped around Evan\u2019s bonded partners: solid ground for his earth guardian and protected deep water for Abysscoil.",
+        "summary": "A defensive sanctuary shaped around Evan’s bonded partners: solid ground for his earth guardian and protected deep water for Abysscoil.",
         "residents": [
           {
             "feralId": "stonebuck",
@@ -793,7 +843,7 @@
       "description": "Known ability archived for Gravahound. Detailed mechanics remain limited to what the System has revealed."
     },
     {
-      "name": "Guardian\u2019s Claim",
+      "name": "Guardian’s Claim",
       "owner": "Gravahound",
       "kind": "Feral Ability",
       "chapter": 7,
@@ -895,7 +945,7 @@
       "chapter": 33,
       "owner": "Evan",
       "kind": "Essence Ability",
-      "description": "Bends the direction of motion of a touched object. Early use works best on smaller objects and strains Evan\u2019s muscles and balance when overused."
+      "description": "Bends the direction of motion of a touched object. Early use works best on smaller objects and strains Evan’s muscles and balance when overused."
     }
   ],
   "essences": [
@@ -956,7 +1006,7 @@
         "Progress through participant ranks",
         "Qualify for the Masters Tournament"
       ],
-      "description": "The Tournament\u2019s overarching progression objective."
+      "description": "The Tournament’s overarching progression objective."
     },
     {
       "name": "Feral Commons Assistance",
@@ -1333,12 +1383,18 @@
     {
       "name": "Stonebuck evolves into Bastionhorn",
       "chapter": 9,
-      "description": "Bond-influenced evolution. Class advances Common \u2192 Bronze; Living Rampart unlocks."
+      "description": "Bond-influenced evolution. Class advances Common → Bronze; Living Rampart unlocks."
     },
     {
-      "name": "Roxy \u2014 Titanblood Awakened",
+      "name": "Roxy — Titanblood Awakened",
       "chapter": 55,
-      "description": "Roxy\u2019s Titanblood lineage awakens. System scan records Class: Master; level unchanged by lineage awakening; severe exertion and recovery required."
+      "description": "Roxy’s Titanblood lineage awakens. System scan records Class: Master; level unchanged by lineage awakening; severe exertion and recovery required."
     }
-  ]
+  ],
+  "dexMeta": {
+    "observedRecords": 25,
+    "worldTotal": "UNKNOWN",
+    "scope": "Book 1 observed records only",
+    "note": "The Personal Interface has only cataloged Ferals encountered or identified in the current archive. This is not a complete species list for the world."
+  }
 }
